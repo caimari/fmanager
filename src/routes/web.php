@@ -1,8 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Caimari\FManager\Controllers\FManagerController;
 use Illuminate\Support\Facades\Auth;
+use Caimari\FManager\Controllers\FManagerController;
 
 Route::group(['middleware' => ['web', 'auth']], function () {
     
